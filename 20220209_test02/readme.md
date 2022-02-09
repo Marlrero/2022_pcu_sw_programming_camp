@@ -4,8 +4,7 @@
 n이 홀수일 때 마방진을 구하기 위해 아래 알고리즘을 참고하여 작성하시오.
 
 [n이 홀수일 때]
-figure
-![screensh](https://pcuackr0-my.sharepoint.com/:i:/g/personal/2014610_pcu_ac_kr/Eb3tTSw0bytMhuiD7bGzVY8B4ihaM8LLOWxCfkRS0tEe9w)
+![figure](./figure.png)
 - 그림은 왼쪽 위부터 차례대로 읽으면 항목이 됩니다.
    > 1 -> 2 -> 3 -> 4 ->
    > 5 -> 6 -> 7 -> 8
