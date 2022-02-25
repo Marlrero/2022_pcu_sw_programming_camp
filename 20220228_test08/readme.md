@@ -76,17 +76,17 @@ insert_edge(g, u, v) ::= 그래프 g에 간선 (u, v)를 삽입
             3 [] -> [0] -> [2]
         ```
     - 추상 데이터 구현을 위한 구조체
-   ```
-    #define MAX_VERTICES 50
-    typedef struct GraphNode {
-        int vertex;
-        struct GraphNode* link; // 자기 참조 구조체
-    } GraphNode;
-    typedef struct GraphType {
-        int n; // 정점 개수
-        GraphNode* adj_list[MAX_VERTICES];
-    } GraphType;
-   ```
+        ```
+        #define MAX_VERTICES 50
+        typedef struct GraphNode {
+            int vertex;
+            struct GraphNode* link; // 자기 참조 구조체
+        } GraphNode;
+        typedef struct GraphType {
+            int n; // 정점 개수
+            GraphNode* adj_list[MAX_VERTICES];
+        } GraphType;
+        ```
 
 위와 같이 인접 행렬이나 인접 리스트를 골라서 그래프의 추상 데이터 타입(4가지 함수)를 구조체에 맞게 구현하시오.
 
